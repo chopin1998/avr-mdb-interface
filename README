@@ -1,6 +1,6 @@
 MDB/ICP is a standard used for the perpherals of vending machine, like Coin Acceptor/Changer or Bill Validator/Recycler, etc.
 
-In face MDB is just a 9600bps UART but in 9bit mode, so you can't connect it to PC directly.
+In fact, MDB is just a 9600bps UART but in 9bit mode, so you can't connect it to PC directly.
 
 
 The code running in a AVR mcu, it preprocess some low level MDB protocol, and give you other UART to PC, you can control it easily then.
